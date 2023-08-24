@@ -1,0 +1,103 @@
+/* public/css/index.css */
+
+/* Custom styling for task list */
+.task-list {
+    list-style: none;
+    padding: 0;
+}
+
+.task-item {
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    position: relative;
+}
+
+.task-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #333333;
+}
+
+.task-description {
+    color: #777777;
+}
+
+.task-status {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+/* Styling for badge-success (Completed) */
+.badge-success {
+    background-color: #28a745;
+    color: #ffffff;
+}
+
+/* Styling for badge-warning (Pending) */
+.badge-warning {
+    background-color: #ffc107;
+    color: #000000;
+}
+
+/* Styling for buttons */
+.btn-action {
+    margin-left: 10px;
+    transition: transform 0.2s;
+}
+
+.btn-action:hover {
+    transform: scale(1.1);
+}
+
+
+
+/*============Pagination ==============*/
+
+/* public/css/custom-pagination.css */
+
+.custom-pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.custom-pagination .pagination-link {
+    background-color: #007bff;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 0 5px;
+    text-decoration: none;
+    transition: background-color 0.2s, transform 0.2s;
+}
+
+.custom-pagination .pagination-link:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.custom-pagination .current-page {
+    background-color: #0056b3;
+    border-radius: 4px;
+    padding: 8px 12px;
+    color: #ffffff;
+    margin: 0 5px;
+}
+
+.custom-pagination .disabled-link {
+    background-color: #f8f9fa;
+    color: #999999;
+    border-radius: 4px;
+    padding: 8px 12px;
+    margin: 0 5px;
+    cursor: not-allowed;
+}

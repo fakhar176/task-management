@@ -1,0 +1,67 @@
+/* public/css/custom.css */
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+/* Navbar Styles */
+/* public/css/custom.css */
+
+/* Style the navbar */
+.navbar {
+    background-color: #343a40; /* Dark gray background color */
+}
+
+.navbar-brand {
+    color: #ffffff; /* White text color for the brand */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* White text color for the links */
+}
+
+/* Change the color of the active link */
+.navbar-nav .nav-item.active .nav-link {
+    color: #ffc107; /* Yellow color for active link */
+}
+
+/* Style the buttons in the navbar */
+.navbar .btn {
+    margin-left: 10px;
+}
+
+/* Add some spacing and center the navbar items */
+.navbar-nav {
+    margin-left: auto;
+}
+
+/* Style the sync button differently */
+.sync-button {
+    background-color: #28a745; /* Green color */
+    border-color: #28a745;
+    color: #ffffff; /* White text color */
+}
+
+/* Add some margin at the bottom of the page */
+
+
+/* Form Styles */
+.form-control {
+    border-color: #95a5a6;
+}
+
+.btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+}
+
+.btn-primary:hover {
+    background-color: #2980b9;
+    border-color: #2980b9;
+}
